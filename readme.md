@@ -1,7 +1,7 @@
 This project will build gradle projects.
 
 * Build this project: `docker build -t ci-build-gradle .`
-* Run: `docker run --rm -v ~/dev/sbux/spring-ref-arch/:/source -it ci-build-gradle build /source`
+* Run: `docker run --rm -v $SOURCE:/source ci-build-gradle build /source`
 
 Default buildSpec:
 ```
